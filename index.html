@@ -20,14 +20,14 @@
       <!-- display items starts -->
       <div class="p-2 text-center rounded border shadow" id="items">
         <h4 class="text-light mt-0 text-center border p-2
-          bg-secondary rounded text-uppercase">Your Schedule</h4>
+          bg-primary rounded text-uppercase">Your Schedule</h4>
         <div class="container p-0" id="items"
           style="overflow-x:auto;min-height: 200px;max-height:
           450px;">
           <table class="table table-striped responsive-lg
             rounded shadow-sm">
             <thead>
-              <tr style="position: sticky;">
+              <tr style="position: sticky;" class="text-secondary">
                 <th>Action</th><!-- upd/del action btn -->
                 <th>Sr.</th>
                 <th>Objective</th>
@@ -62,7 +62,7 @@
             <div class="modal-header m-1 p-1">
               <h4 class="text-light text-center m-auto border
                 rounded
-                p-2 bg-secondary
+                p-2 bg-primary
                 rounded text-uppercase">Add Schedule Work</h4>
               <button type="button" class="close btn
                 btn-outline-danger border p-1 m-1"
@@ -70,7 +70,8 @@
                 5px;width: 32px;">&times;
               </button>
             </div>
-            <div class="modal-body" style="font-size:20px; color: #828282;">
+            <div class="modal-body text-primary" style="font-size:20px; color:
+              #828282;">
               <div class="form-group m-auto" style="width: 90%;">
                 <label for="title">Objective</label>
                 <input type="search" class="form-control mb-2"
@@ -98,11 +99,11 @@
             </div>
             <div class="modal-footer m-auto">
               <button type="submit" id="add" class="btn
-                btn-outline-primary
+                btn-primary
                 text-uppercase">
                 <i class="fa fa-plus"></i> Add to the list</button>
               <button id="clearAll" onclick="clearList()"
-                class="btn btn-outline-danger
+                class="btn btn-danger
                 text-uppercase">
                 <i class="fa fa-trash"></i> Clear List
               </button>
